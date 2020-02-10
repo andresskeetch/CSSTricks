@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 90px;
+            font-family: sans-serif;
+            line-height: 1.5;
+        }
+        body {
+            background: #eee;
+        }
+        h1, h2 {
+            margin-bottom: .5em;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.6rem;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        .container {
+            width: 80%;
+            margin: 1em auto;
+            padding: 1em 5%;
+            background: #fff;
+        }
+        .component {
+            width: 100%;
+            border: 1px orange solid;
+        }
+        .component__header {
+            font-size: 2rem;
+            background-color: orange;
+            color: white;
+            padding: 0.75em 3rem;
+            margin: 0;
+        }
+        .component__header--large {
+            font-size: 3rem;    
+        }
+        .component__content {
+            font-size: 1rem;
+            padding: 1.5em 3rem;
+            margin: 0;
+        }
+        .componentpx__header {
+            font-size: 32px;
+            background-color: orange;
+            color: white;
+            padding: 15px;
+            margin: 0;
+        }
+        .componentpx__header--large {
+            font-size: 90px;    
+        }
+        .componentpx__content {
+            font-size: 16px;
+            padding: 15px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="component">
+        <div class="componentpx__header componentpx__header--large">Título px</div>
+        <div class="componentpx__content">
+          Lorem fistrum quietooor nostrud exercitation pupita sed qui apetecan ese que llega jarl esse. Torpedo occaecat te va a hasé pupitaa eiusmod. Pecador va usté muy cargadoo quis quis minim. Et sed veniam diodenoo aliqua. Ex sit amet quietooor papaar papaar velit no puedor no puedor llevame al sircoo commodo. Elit va usté muy cargadoo nisi hasta luego Lucas ad reprehenderit a peich ex.
+        </div>
+    </div>
+    <div class="component">
+        <div class="component__header component__header--large">Título REM</div>
+        <div class="component__content">
+          Lorem fistrum quietooor nostrud exercitation pupita sed qui apetecan ese que llega jarl esse. Torpedo occaecat te va a hasé pupitaa eiusmod. Pecador va usté muy cargadoo quis quis minim. Et sed veniam diodenoo aliqua. Ex sit amet quietooor papaar papaar velit no puedor no puedor llevame al sircoo commodo. Elit va usté muy cargadoo nisi hasta luego Lucas ad reprehenderit a peich ex.
+        </div>
+    </div>
+      
+    <div class="component">
+        <div class="component__header">Título EM</div>
+        <div class="component__content">
+          Lorem fistrum quietooor nostrud exercitation pupita sed qui apetecan ese que llega jarl esse. Torpedo occaecat te va a hasé pupitaa eiusmod. Pecador va usté muy cargadoo quis quis minim. Et sed veniam diodenoo aliqua. Ex sit amet quietooor papaar papaar velit no puedor no puedor llevame al sircoo commodo. Elit va usté muy cargadoo nisi hasta luego Lucas ad reprehenderit a peich ex.
+        </div>
+    </div>
+
+</body>
+</html>
